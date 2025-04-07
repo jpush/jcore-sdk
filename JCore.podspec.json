@@ -1,6 +1,6 @@
 {
   "name": "JCore",
-  "version": "4.9.0",
+  "version": "5.0.0",
   "summary": "Offically supported middleware iOS SDK Pod. 官方支持的极光推送 SDK 中间件.",
   "description": "Offically supported middleware iOS SDK Pod. 官方支持的极光推送 SDK 中间件.",
   "homepage": "http://www.jiguang.cn/",
@@ -16,7 +16,7 @@
   },
   "source": {
     "git": "https://github.com/jpush/jcore-sdk.git",
-    "tag": "4.9.0"
+    "tag": "5.0.0"
   },
   "vendored_frameworks": "*.xcframework",
   "frameworks": [
