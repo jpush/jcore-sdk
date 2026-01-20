@@ -1,6 +1,6 @@
 {
   "name": "JCore",
-  "version": "5.3.0-noidfa",
+  "version": "5.3.0",
   "summary": "Offically supported middleware iOS SDK Pod. 官方支持的极光推送 SDK 中间件.",
   "description": "Offically supported middleware iOS SDK Pod. 官方支持的极光推送 SDK 中间件.",
   "homepage": "http://www.jiguang.cn/",
@@ -16,7 +16,7 @@
   },
   "source": {
     "git": "https://github.com/jpush/jcore-sdk.git",
-    "tag": "5.3.0-noidfa"
+    "tag": "5.3.0"
   },
   "vendored_frameworks": "*.xcframework",
   "frameworks": [
@@ -35,6 +35,7 @@
   },
   "weak_frameworks": [
     "UserNotifications",
+    "AppTrackingTransparency",
     "Network"
   ],
   "libraries": [
