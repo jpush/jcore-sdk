@@ -11,33 +11,13 @@ let package = Package(
     products: [
         .library(
             name: "JCore",
-            targets: ["JCoreWrapper"]
+            targets: ["JCore"]
         ),
     ],
     targets: [
-        .target(
-            name: "JCoreWrapper",
-            dependencies: ["JCore"],
-            path: "JCoreWrapper",
-            linkerSettings: [
-                .linkedLibrary("z"),
-                .linkedLibrary("resolv"),
-                .linkedFramework("UIKit"),
-                .linkedFramework("CFNetwork"),
-                .linkedFramework("CoreFoundation"),
-                .linkedFramework("CoreTelephony"),
-                .linkedFramework("SystemConfiguration"),
-                .linkedFramework("CoreGraphics"),
-                .linkedFramework("Foundation"),
-                .linkedFramework("WebKit"),
-                .linkedFramework("Security"),
-                .linkedFramework("UserNotifications", .when(platforms: [.iOS])),
-                .linkedFramework("Network", .when(platforms: [.iOS])),
-            ]
-        ),
         .binaryTarget(
             name: "JCore",
-            path: "jcore-ios-5.3.0.xcframework"
+            path: "jbasic-ios-5.3.1.xcframework"
         ),
     ]
 )
