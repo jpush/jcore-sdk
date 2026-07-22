@@ -17,7 +17,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "JCore",
-            path: "jbasic-ios-5.4.2.xcframework"
+            path: "jbasic-ios-5.5.0.xcframework"
         ),
     ]
 )
