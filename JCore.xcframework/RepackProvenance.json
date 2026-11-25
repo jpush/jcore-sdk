@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "product": "JCore",
+  "sdk_version": "5.6.1",
+  "package_type": "normal",
+  "minimum_os": "7.0",
+  "public_headers": [
+    "JGCOREAPI.h",
+    "JGInforCollectionAuth.h"
+  ],
+  "source_kind": "fresh-sdk-build",
+  "compiled_archive_sha256": {
+    "ios-arm64": "8e70f386705295a2fb81941b0f06b29597bed6339b539aa1dc0f76895213aa40",
+    "ios-arm64_x86_64-simulator": "9d3fb63f6c36dc8b23726e34b088f298851dde96ee2cf38023dbdd7496fd7f80"
+  },
+  "sdk_source_revision": "1a10a244c6fd3cff55f313e4484d21a841ad9c89",
+  "source_dirty_during_build": true,
+  "distribution_configuration": "release",
+  "build_url": "",
+  "build_number": "501",
+  "files": {
+    "Info.plist": "3edd423853cf2ae3e2f41745cb6b7f5cb505eb9f52be10362758977891b0eef6",
+    "ios-arm64_x86_64-simulator/libJCore.a": "9d3fb63f6c36dc8b23726e34b088f298851dde96ee2cf38023dbdd7496fd7f80",
+    "ios-arm64_x86_64-simulator/PrivacyInfo.xcprivacy": "d266b1eb1e5af3a30bd1af4a82607911d3bfb96b4dfdcc01190ab862fc6c9e7d",
+    "ios-arm64_x86_64-simulator/Headers/JGInforCollectionAuth.h": "cc11b53a42db3b75afe5d565409da1ea9621ffeb43b39de57b9fc7090bad9595",
+    "ios-arm64_x86_64-simulator/Headers/JGCOREAPI.h": "2d6367dd3caed1c0bec3553b34cefeca6bbdfb95b3021c1174b185067ad497bb",
+    "ios-arm64/libJCore.a": "8e70f386705295a2fb81941b0f06b29597bed6339b539aa1dc0f76895213aa40",
+    "ios-arm64/PrivacyInfo.xcprivacy": "d266b1eb1e5af3a30bd1af4a82607911d3bfb96b4dfdcc01190ab862fc6c9e7d",
+    "ios-arm64/Headers/JGInforCollectionAuth.h": "cc11b53a42db3b75afe5d565409da1ea9621ffeb43b39de57b9fc7090bad9595",
+    "ios-arm64/Headers/JGCOREAPI.h": "2d6367dd3caed1c0bec3553b34cefeca6bbdfb95b3021c1174b185067ad497bb"
+  },
+  "operation": "static-framework-repack-no-sdk-compilation",
+  "archive_mapping": [
+    {
+      "slice": "ios-arm64_x86_64-simulator",
+      "input_archive": "libJCore.a",
+      "framework_binary": "JCore.framework/JCore",
+      "sha256_before": "9d3fb63f6c36dc8b23726e34b088f298851dde96ee2cf38023dbdd7496fd7f80",
+      "sha256_after": "9d3fb63f6c36dc8b23726e34b088f298851dde96ee2cf38023dbdd7496fd7f80"
+    },
+    {
+      "slice": "ios-arm64",
+      "input_archive": "libJCore.a",
+      "framework_binary": "JCore.framework/JCore",
+      "sha256_before": "8e70f386705295a2fb81941b0f06b29597bed6339b539aa1dc0f76895213aa40",
+      "sha256_after": "8e70f386705295a2fb81941b0f06b29597bed6339b539aa1dc0f76895213aa40"
+    }
+  ]
+}

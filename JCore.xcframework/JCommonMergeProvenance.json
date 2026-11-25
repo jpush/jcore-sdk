@@ -1,0 +1,49 @@
+{
+  "configuration": "release",
+  "core_version": "5.6.1",
+  "jcommon_version": "1.0.6",
+  "archive_mapping": [
+    {
+      "sku": "normal",
+      "slice": "ios-arm64",
+      "core_before_sha256": "5667cf2e5095d44e74a189e856b4688fce5a2e1f5a903e6650666d1f8f0ec3bb",
+      "jcommon_sha256": "e955d6b1a93c91a5bd3d85aef7ff865c5d34bedf1388d345be7e209bd8b9aded",
+      "merged_archive_sha256": "8e70f386705295a2fb81941b0f06b29597bed6339b539aa1dc0f76895213aa40"
+    },
+    {
+      "sku": "normal",
+      "slice": "ios-arm64_x86_64-simulator",
+      "core_before_sha256": "2625545824d61f330f007da410e85f001aff2bb9287b72a9ce0993fb5a95420c",
+      "jcommon_sha256": "74d678f3365e95da516059327f96edd38ac32bad99683234fa80173eb3011e73",
+      "merged_archive_sha256": "9d3fb63f6c36dc8b23726e34b088f298851dde96ee2cf38023dbdd7496fd7f80"
+    },
+    {
+      "sku": "noidfa",
+      "slice": "ios-arm64",
+      "core_before_sha256": "5667cf2e5095d44e74a189e856b4688fce5a2e1f5a903e6650666d1f8f0ec3bb",
+      "jcommon_sha256": "e6008917bfcc37cf5e65817253ba13fc05acfbe7cfef1b85c79f3636a86bf75e",
+      "merged_archive_sha256": "e7c5eab795a9bc58c339ec4df30a6266fcca2f2be7c203fc9e55ff938f315df0"
+    },
+    {
+      "sku": "noidfa",
+      "slice": "ios-arm64_x86_64-simulator",
+      "core_before_sha256": "2625545824d61f330f007da410e85f001aff2bb9287b72a9ce0993fb5a95420c",
+      "jcommon_sha256": "d90db51b9e05a4cc154b931cc593a42377c761f8a0dfe6ac2fb90d1ef5881314",
+      "merged_archive_sha256": "6cd1fea97bea051872da06235ee4319d13f02b7fdb131682470a25b47ae80442"
+    },
+    {
+      "sku": "pure",
+      "slice": "ios-arm64",
+      "core_before_sha256": "14d74d70446e6d6a6ffad33e321a22f0a11b04474f6574fed040ccd0b758f7cf",
+      "jcommon_sha256": "9eeb40ecb00aa0bc0f910387f48990f57fa6cafa4decf743ab09e32a7cb009d8",
+      "merged_archive_sha256": "35c6482d53380778a04e216b2f55a43ebe09d56829b89fb0a43e2ef05dc136f6"
+    },
+    {
+      "sku": "pure",
+      "slice": "ios-arm64_x86_64-simulator",
+      "core_before_sha256": "386b0516be9a649891d87299696a42731d662935d68b924794e82eaa8506cac8",
+      "jcommon_sha256": "916eecc30f2fe5e4c34d605ab5298794c09c597a21f2d703d326d54f62292074",
+      "merged_archive_sha256": "11949b0eafc7dc895194e6e2d852d4767d85923bf78b97286d0ba5c9d7a55039"
+    }
+  ]
+}

@@ -26,6 +26,6 @@ let package = Package(
                 .linkedLibrary("resolv")
             ]
         ),
-        .binaryTarget(name: "JCore", path: "Artifacts/JCore.xcframework")
+        .binaryTarget(name: "JCore", path: "JCore.xcframework")
     ]
 )

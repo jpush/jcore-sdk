@@ -1,0 +1,27 @@
+{
+  "product": "JCore",
+  "version": "5.6.1",
+  "producer": "local-original-entrypoint",
+  "source_sha": "1a10a244c6fd3cff55f313e4484d21a841ad9c89",
+  "zip_sha256": "c62bf62059996eb8f78e207ec59b3bf46c767fe7e724a4a6bfc0470e8103b424",
+  "archive_mapping": [
+    {
+      "slice": "ios-arm64_x86_64-simulator",
+      "sha256": "9d3fb63f6c36dc8b23726e34b088f298851dde96ee2cf38023dbdd7496fd7f80"
+    },
+    {
+      "slice": "ios-arm64",
+      "sha256": "8e70f386705295a2fb81941b0f06b29597bed6339b539aa1dc0f76895213aa40"
+    }
+  ],
+  "distribution_kind": "isolated-customer-uts-validation",
+  "package_type": "normal",
+  "source_branch": "integration/uts-static-framework-5.6.0-cec94711",
+  "initial_checkout_clean": true,
+  "source_dirty_during_build": true,
+  "build_configuration": "release",
+  "build_number": 501,
+  "xcode": "26.3",
+  "sdk": "26.2",
+  "build_preparation": "Original entrypoint updates BuildID/release flags; source versions unchanged"
+}
