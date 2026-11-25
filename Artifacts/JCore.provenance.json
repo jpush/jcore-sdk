@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "product": "JCore",
+  "sdk_version": "5.6.0",
+  "package_type": "normal",
+  "minimum_os": "7.0",
+  "source_repository": "https://github.com/jpush/jcore-sdk",
+  "source_tag": "5.6.0",
+  "source_tag_commit": "1de3d0e0a56e0875fda456dc54d1f31181a3fd57",
+  "sdk_source_revision": "51d3c92adafab811a19227a9a3b2aa0ef232ca0b",
+  "files": {
+    "Info.plist": "725620846750f7dfd1f78fee78aa37999e2c40e3068ce0cb532f1f61393eac68",
+    "ios-arm64_x86_64-simulator/libJCore.a": "7b325a0e5efa702a84f2bc6e918bf36e0d82274f15b5ae85efdcd09d685f6e42",
+    "ios-arm64_x86_64-simulator/PrivacyInfo.xcprivacy": "d266b1eb1e5af3a30bd1af4a82607911d3bfb96b4dfdcc01190ab862fc6c9e7d",
+    "ios-arm64_x86_64-simulator/Headers/JGInforCollectionAuth.h": "cc11b53a42db3b75afe5d565409da1ea9621ffeb43b39de57b9fc7090bad9595",
+    "ios-arm64_x86_64-simulator/Headers/JGCOREAPI.h": "2d6367dd3caed1c0bec3553b34cefeca6bbdfb95b3021c1174b185067ad497bb",
+    "ios-arm64/libJCore.a": "2ec442e57dc819cd47430be7462e9d66eee441668c5feae2aa8f8809acdc8a83",
+    "ios-arm64/PrivacyInfo.xcprivacy": "d266b1eb1e5af3a30bd1af4a82607911d3bfb96b4dfdcc01190ab862fc6c9e7d",
+    "ios-arm64/Headers/JGInforCollectionAuth.h": "cc11b53a42db3b75afe5d565409da1ea9621ffeb43b39de57b9fc7090bad9595",
+    "ios-arm64/Headers/JGCOREAPI.h": "2d6367dd3caed1c0bec3553b34cefeca6bbdfb95b3021c1174b185067ad497bb"
+  },
+  "public_headers": [
+    "JGCOREAPI.h",
+    "JGInforCollectionAuth.h"
+  ],
+  "operation": "static-framework-repack-no-sdk-compilation",
+  "archive_mapping": [
+    {
+      "slice": "ios-arm64",
+      "input_archive": "libJCore.a",
+      "framework_binary": "JCore.framework/JCore",
+      "sha256_before": "2ec442e57dc819cd47430be7462e9d66eee441668c5feae2aa8f8809acdc8a83",
+      "sha256_after": "2ec442e57dc819cd47430be7462e9d66eee441668c5feae2aa8f8809acdc8a83"
+    },
+    {
+      "slice": "ios-arm64_x86_64-simulator",
+      "input_archive": "libJCore.a",
+      "framework_binary": "JCore.framework/JCore",
+      "sha256_before": "7b325a0e5efa702a84f2bc6e918bf36e0d82274f15b5ae85efdcd09d685f6e42",
+      "sha256_after": "7b325a0e5efa702a84f2bc6e918bf36e0d82274f15b5ae85efdcd09d685f6e42"
+    }
+  ]
+}

@@ -1,23 +1,31 @@
 // swift-tools-version:5.3
-// The swift-tools-version declares the minimum version of Swift required to build this package.
-
 import PackageDescription
 
+// 客户 UTS 静态 Framework 验证分支，不代表正常公有云版本发布。
 let package = Package(
     name: "JCore",
-    platforms: [
-        .iOS(.v8)
-    ],
-    products: [
-        .library(
-            name: "JCore",
-            targets: ["JCore"]
-        ),
-    ],
+    platforms: [.iOS(.v8)],
+    products: [.library(name: "JCore", targets: ["JCoreWrapper"])],
     targets: [
-        .binaryTarget(
-            name: "JCore",
-            path: "jcore-ios-5.6.0.xcframework"
+        .target(
+            name: "JCoreWrapper",
+            dependencies: ["JCore"],
+            path: "JCoreWrapper",
+            resources: [.copy("Resources/PrivacyInfo.xcprivacy")],
+            linkerSettings: [
+                .linkedFramework("UIKit"),
+                .linkedFramework("CFNetwork"),
+                .linkedFramework("CoreFoundation"),
+                .linkedFramework("CoreTelephony"),
+                .linkedFramework("SystemConfiguration"),
+                .linkedFramework("CoreGraphics"),
+                .linkedFramework("Foundation"),
+                .linkedFramework("WebKit"),
+                .linkedFramework("Security"),
+                .linkedLibrary("z"),
+                .linkedLibrary("resolv")
+            ]
         ),
+        .binaryTarget(name: "JCore", path: "Artifacts/JCore.xcframework")
     ]
 )
