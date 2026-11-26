@@ -1,27 +1,35 @@
 {
   "product": "JCore",
   "version": "5.6.1",
-  "producer": "local-original-entrypoint",
-  "source_sha": "1a10a244c6fd3cff55f313e4484d21a841ad9c89",
-  "zip_sha256": "c62bf62059996eb8f78e207ec59b3bf46c767fe7e724a4a6bfc0470e8103b424",
+  "producer": "jenkins",
+  "source_sha": "a7a307cf25caed3d34a4cd78389b1d9f29a23c87",
+  "source_branch": "integration/uts-static-framework-5.6.0-cec94711",
+  "jenkins_build_url": "https://jenkins.qa.jpushoa.com/job/sdk-build/job/ios-sdk-build/job/ios-reconsitution/186/",
+  "jenkins_build_number": 186,
+  "pipeline_commit": "77ab6326a979b2653c940330d9a70da4a766ec99",
+  "dependency_commits": [],
+  "sdk_zip_sha256": "f0cb05d770a74e6986a0c42cc36e98f62e8f75128e33ae55c1ea6f3c26cdd557",
+  "outer_artifact_sha256": "683ca6e591463347062fae907c358449aada896e0efdda42e1c4d66c92363519",
   "archive_mapping": [
     {
       "slice": "ios-arm64_x86_64-simulator",
-      "sha256": "9d3fb63f6c36dc8b23726e34b088f298851dde96ee2cf38023dbdd7496fd7f80"
+      "sha256": "fb19f32f3d8108490b14bfc0a0f96884886ff93375ab1b7579bed543c86511e6",
+      "static_archive": true
     },
     {
       "slice": "ios-arm64",
-      "sha256": "8e70f386705295a2fb81941b0f06b29597bed6339b539aa1dc0f76895213aa40"
+      "sha256": "018de3ae1c636550167d236cd92f3d9efa967091235b1ae1e7675d1d37d7c17b",
+      "static_archive": true
     }
   ],
+  "clean_diagnostic_count": 0,
+  "actual_build_succeeded_count": 30,
+  "source_dirty_during_build": true,
+  "consumer_build_executed_locally": false,
   "distribution_kind": "isolated-customer-uts-validation",
   "package_type": "normal",
-  "source_branch": "integration/uts-static-framework-5.6.0-cec94711",
-  "initial_checkout_clean": true,
-  "source_dirty_during_build": true,
-  "build_configuration": "release",
-  "build_number": 501,
-  "xcode": "26.3",
-  "sdk": "26.2",
-  "build_preparation": "Original entrypoint updates BuildID/release flags; source versions unchanged"
+  "sdk_build_environment": "existing Jenkins Xcode14.2 / Swift5.7.2 / Python3.9.6",
+  "consumer_validation": "Not executed for this Jenkins product; no local consumer build used",
+  "uts_validation": "pending customer",
+  "environment_configuration_changed": false
 }

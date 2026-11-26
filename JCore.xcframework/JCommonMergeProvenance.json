@@ -6,44 +6,44 @@
     {
       "sku": "normal",
       "slice": "ios-arm64",
-      "core_before_sha256": "5667cf2e5095d44e74a189e856b4688fce5a2e1f5a903e6650666d1f8f0ec3bb",
-      "jcommon_sha256": "e955d6b1a93c91a5bd3d85aef7ff865c5d34bedf1388d345be7e209bd8b9aded",
-      "merged_archive_sha256": "8e70f386705295a2fb81941b0f06b29597bed6339b539aa1dc0f76895213aa40"
+      "core_before_sha256": "3fb59a329d7ebf2f496df3c1d778b3b38214c4ad77a37628fd1a19aef0d0552a",
+      "jcommon_sha256": "d8fdf332a209c53350f9deece94b6daf5c36b8b14d613047b72c8ef91f6df5ff",
+      "merged_archive_sha256": "018de3ae1c636550167d236cd92f3d9efa967091235b1ae1e7675d1d37d7c17b"
     },
     {
       "sku": "normal",
       "slice": "ios-arm64_x86_64-simulator",
-      "core_before_sha256": "2625545824d61f330f007da410e85f001aff2bb9287b72a9ce0993fb5a95420c",
-      "jcommon_sha256": "74d678f3365e95da516059327f96edd38ac32bad99683234fa80173eb3011e73",
-      "merged_archive_sha256": "9d3fb63f6c36dc8b23726e34b088f298851dde96ee2cf38023dbdd7496fd7f80"
+      "core_before_sha256": "5a523c14abcef5c82ce5a9ebdf0bff913e15d1c5a33fa78fa1715a572ee48b26",
+      "jcommon_sha256": "96799eafb8e2a4cd9714af09b5c32936f5c93fc8b9b23e0cc349a3371c17b77e",
+      "merged_archive_sha256": "fb19f32f3d8108490b14bfc0a0f96884886ff93375ab1b7579bed543c86511e6"
     },
     {
       "sku": "noidfa",
       "slice": "ios-arm64",
-      "core_before_sha256": "5667cf2e5095d44e74a189e856b4688fce5a2e1f5a903e6650666d1f8f0ec3bb",
-      "jcommon_sha256": "e6008917bfcc37cf5e65817253ba13fc05acfbe7cfef1b85c79f3636a86bf75e",
-      "merged_archive_sha256": "e7c5eab795a9bc58c339ec4df30a6266fcca2f2be7c203fc9e55ff938f315df0"
+      "core_before_sha256": "3fb59a329d7ebf2f496df3c1d778b3b38214c4ad77a37628fd1a19aef0d0552a",
+      "jcommon_sha256": "a8e15b32aa09679cf376a1222621829c38e9f09e03b0dbce92b6f0f465f4e817",
+      "merged_archive_sha256": "47698372f1f314a5975d0c196b5b4fe947fff9ba60d68740c25351c8c5a2ea1e"
     },
     {
       "sku": "noidfa",
       "slice": "ios-arm64_x86_64-simulator",
-      "core_before_sha256": "2625545824d61f330f007da410e85f001aff2bb9287b72a9ce0993fb5a95420c",
-      "jcommon_sha256": "d90db51b9e05a4cc154b931cc593a42377c761f8a0dfe6ac2fb90d1ef5881314",
-      "merged_archive_sha256": "6cd1fea97bea051872da06235ee4319d13f02b7fdb131682470a25b47ae80442"
+      "core_before_sha256": "5a523c14abcef5c82ce5a9ebdf0bff913e15d1c5a33fa78fa1715a572ee48b26",
+      "jcommon_sha256": "dbb8a98fbc4ff941d7d0227833ae65823ad82f3145a78604907ee288f13a47cc",
+      "merged_archive_sha256": "0413dd16ba2ae3e6bbb6caa98ba311e2fc02e6a656d40c3e9548ea20ca20cead"
     },
     {
       "sku": "pure",
       "slice": "ios-arm64",
-      "core_before_sha256": "14d74d70446e6d6a6ffad33e321a22f0a11b04474f6574fed040ccd0b758f7cf",
-      "jcommon_sha256": "9eeb40ecb00aa0bc0f910387f48990f57fa6cafa4decf743ab09e32a7cb009d8",
-      "merged_archive_sha256": "35c6482d53380778a04e216b2f55a43ebe09d56829b89fb0a43e2ef05dc136f6"
+      "core_before_sha256": "8c5a05529b5ada87df14bd408e828dcc2dc41ad416c7dd0024c77f41e416c94e",
+      "jcommon_sha256": "945dd7a38cf97cb39795753a1f8c78f4fa703fbd4de1e923d1cc40e71421bcf6",
+      "merged_archive_sha256": "0363dc3596b6fab597877a860f41ef3f7e6b318959d70b7393b890e1c5078091"
     },
     {
       "sku": "pure",
       "slice": "ios-arm64_x86_64-simulator",
-      "core_before_sha256": "386b0516be9a649891d87299696a42731d662935d68b924794e82eaa8506cac8",
-      "jcommon_sha256": "916eecc30f2fe5e4c34d605ab5298794c09c597a21f2d703d326d54f62292074",
-      "merged_archive_sha256": "11949b0eafc7dc895194e6e2d852d4767d85923bf78b97286d0ba5c9d7a55039"
+      "core_before_sha256": "12aef20fc742b4f52e82ba3bad8daae42dae11a4f3297202099f7a58ee655ec0",
+      "jcommon_sha256": "f0720f86e86c45617679cb455d5193db6e8be141495dc6f2c64863f2aec31d26",
+      "merged_archive_sha256": "cf83f3ac024e76867ac55c43ee8ca15e5f67efdc227ed9a54a083c003aca6b25"
     }
   ]
 }
