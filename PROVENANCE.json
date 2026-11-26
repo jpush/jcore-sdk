@@ -2,34 +2,38 @@
   "product": "JCore",
   "version": "5.6.1",
   "producer": "jenkins",
-  "source_sha": "a7a307cf25caed3d34a4cd78389b1d9f29a23c87",
+  "source_sha": "6429bcff425b930aac2884e03a238ecd4dd73dca",
   "source_branch": "integration/uts-static-framework-5.6.0-cec94711",
-  "jenkins_build_url": "https://jenkins.qa.jpushoa.com/job/sdk-build/job/ios-sdk-build/job/ios-reconsitution/186/",
-  "jenkins_build_number": 186,
-  "pipeline_commit": "77ab6326a979b2653c940330d9a70da4a766ec99",
+  "jenkins_build_url": "https://jenkins.qa.jpushoa.com/job/sdk-build/job/ios-sdk-build/job/ios-reconsitution/187/",
+  "jenkins_build_number": 187,
+  "pipeline_commit": "20944e803eeed4eaaebe959c52c13e296ebdced5",
   "dependency_commits": [],
-  "sdk_zip_sha256": "f0cb05d770a74e6986a0c42cc36e98f62e8f75128e33ae55c1ea6f3c26cdd557",
-  "outer_artifact_sha256": "683ca6e591463347062fae907c358449aada896e0efdda42e1c4d66c92363519",
+  "outer_artifact_sha256": "a05ad018f7db359dd08ec24ec61172c1d5a6f20110ed51526996e5edd2996451",
+  "actual_build_succeeded_count": 30,
+  "known_clean_diagnostic_count": 0,
+  "consumer_build_executed": false,
+  "distribution_kind": "isolated-customer-uts-validation",
+  "package_type": "normal",
+  "sdk_zip_sha256": "0710ecc1cd673697c145299b2b1423e9625de1851c3bf02c69388cd4a65165b4",
   "archive_mapping": [
     {
       "slice": "ios-arm64_x86_64-simulator",
-      "sha256": "fb19f32f3d8108490b14bfc0a0f96884886ff93375ab1b7579bed543c86511e6",
-      "static_archive": true
+      "sha256": "b381ce3e6aae73d2392e19a87440391e40e48f0a4ccce9265866313c45788d71",
+      "static_archive": true,
+      "runtime_encoding_present": true,
+      "privacy_sha256": "d266b1eb1e5af3a30bd1af4a82607911d3bfb96b4dfdcc01190ab862fc6c9e7d"
     },
     {
       "slice": "ios-arm64",
-      "sha256": "018de3ae1c636550167d236cd92f3d9efa967091235b1ae1e7675d1d37d7c17b",
-      "static_archive": true
+      "sha256": "27de09fe0b54db51cc9afbe46982f9b0bf217ea53859d5944f7c97d471ef4d1d",
+      "static_archive": true,
+      "runtime_encoding_present": true,
+      "privacy_sha256": "d266b1eb1e5af3a30bd1af4a82607911d3bfb96b4dfdcc01190ab862fc6c9e7d"
     }
   ],
-  "clean_diagnostic_count": 0,
-  "actual_build_succeeded_count": 30,
-  "source_dirty_during_build": true,
-  "consumer_build_executed_locally": false,
-  "distribution_kind": "isolated-customer-uts-validation",
-  "package_type": "normal",
-  "sdk_build_environment": "existing Jenkins Xcode14.2 / Swift5.7.2 / Python3.9.6",
-  "consumer_validation": "Not executed for this Jenkins product; no local consumer build used",
+  "all_sku_validation": "Jenkins SDK ZIP static verification; not consumer/UTS runtime",
+  "consumer_validation": "Not executed; no local SDK or consumer build used",
   "uts_validation": "pending customer",
-  "environment_configuration_changed": false
+  "environment_configuration_changed": false,
+  "source_dirty_during_build": true
 }
